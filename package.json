@@ -1,0 +1,26 @@
+{
+  "name": "@surge/example-npm-prepost",
+  "version": "0.1.0",
+  "description": "An example using npm run pre- and post- scripts.",
+  "author": "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+  "contributors": [
+    "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+    "Brock Whitten   <brock@surge.sh>   (http://sintaxi.com)"
+  ],
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/kennethormandy/example-posttest.git",
+  "keywords": ["surge", "surge.sh", "example", "npm run", "run scripts", "standard"],
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha test",
+    "posttest": "npm run lint",
+    "predeploy": "npm run test",
+    "deploy": "surge ./ example-npm-prepost.surge.sh"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5",
+    "standard": "4.5.4",
+    "surge": "latest"
+  }
+}
