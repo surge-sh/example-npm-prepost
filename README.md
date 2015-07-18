@@ -6,4 +6,4 @@ An example running certain commands in conjunction with one another using npm ru
 
 [The MIT License (MIT)](LICENSE.md)
 
-Copyright © 2015 [Kenneth Ormandy](http://kennethormandy.com)
+Copyright © 2015 [Chloi Inc.](http://chloi.io)
